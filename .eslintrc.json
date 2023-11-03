@@ -4,7 +4,6 @@
         "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
         "standard"
     ],
     "parserOptions": {
@@ -15,12 +14,9 @@
         "sourceType": "module"
     },
     "plugins": [
-      "jest", 
-      "react", 
-      "prettier"
+      "jest"
     ],
     "rules": {
-      "prettier/prettier": "error",
       "max-len": [1, 120, 2, { "ignoreComments": true }],
       "no-console": "off",
       "quotes": ["warn", "single"],
